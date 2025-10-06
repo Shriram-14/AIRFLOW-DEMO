@@ -1,0 +1,13 @@
+{"timestamp":"2025-10-06T02:37:27.851433Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-10-06T02:37:27.851711Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/90_days_price.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-06T02:37:27.939212Z","level":"warning","event":"The `airflow.decorators.task` attribute is deprecated. Please use `'airflow.sdk.task'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/90_days_price.py","lineno":3,"logger":"py.warnings"}
+{"timestamp":"2025-10-06T02:37:27.958852Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-10-06T02:37:27.959797Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-10-06T02:37:27.960874Z","level":"info","event":"Current task name:load_to_snowflake","logger":"task.stdout"}
+{"timestamp":"2025-10-06T02:37:27.960942Z","level":"info","event":"Dag name:90_days_price","logger":"task.stdout"}
+{"timestamp":"2025-10-06T02:37:27.966213Z","level":"info","event":"Snowflake Connector for Python Version: 3.17.4, Python Version: 3.12.11, Platform: Linux-6.10.14-linuxkit-aarch64-with-glibc2.36","logger":"snowflake.connector.connection","filename":"connection.py","lineno":521}
+{"timestamp":"2025-10-06T02:37:27.966511Z","level":"info","event":"Connecting to GLOBAL Snowflake domain","logger":"snowflake.connector.connection","filename":"connection.py","lineno":1464}
+{"timestamp":"2025-10-06T02:38:41.759882Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":218}
+{"timestamp":"2025-10-06T02:38:41.773028Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-10-06T02:38:41.774177Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-10-06T02:38:41.774949Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): load_to_snowflake>","logger":"task.stdout"}
